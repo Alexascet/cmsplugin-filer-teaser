@@ -14,8 +14,12 @@ CMSPLUGIN_FILER_TEASER_STYLE_CHOICES = getattr( settings, 'CMSPLUGIN_FILER_TEASE
 try:
     from settings import TEASER_PLUGIN_TEMPLATES
 except:
-    TEASER_PLUGIN_TEMPLATES = (
-            ('intro_widget.html', 'Slider List'),
+   TEASER_PLUGIN_TEMPLATES = (
+            ('slider.html', 'Slider'),
+            ('list.html', 'List'),
+            ('tabs.html', 'tabs'),
+            ('fader.html', 'fader'),
+            ('gallery-list.html', 'gallery List'),
             )
 
 
