@@ -1,7 +1,7 @@
 {
     "name": "Ascet Filer Teaser",
     "description": "Filer Teaser plugin for Aldryn and django CMS.",
-    "version": "1.0.1",
+    "version": "1.0.0",
     "url": "https://github.com/Alexascet/cmsplugin-filer-teaser",
     "package-name": "aldryn-filer-teaser",
     "installed-apps": [
